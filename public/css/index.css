@@ -1,0 +1,82 @@
+/*Animations*/
+@keyframes light{
+    0%{
+        transform: translate(-60px,-50px) rotate(45deg);
+        left: -20px;
+    }
+    100%{
+        left: calc(100% + 20px);
+        transform: translate(calc(100% + 60px),-50px) rotate(45deg);
+    }
+}
+.light{
+    animation: light 2s infinite forwards;
+    width: 20px;
+    height: 155px;
+    background-color: rgba(255, 255, 255, 0.425);
+    position: absolute;
+}
+
+/*Patterns*/
+.button{
+    background-color: #ffe46e;
+    color: rgb(22, 22, 22) !important;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    height: 60px;
+    line-height: 60px;
+}
+
+.button:hover{
+    scale: 105%;
+}
+
+.button a{
+    width: 100% !important;
+    height: 100% !important;
+    display: inline-block;
+}
+.button a:hover{
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+}
+.d-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h-100vh{
+    height: 100vh !important;
+}
+
+/*Navbar*/
+.menu{
+    height: 88px;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.box-shadow{
+    box-shadow: 0 5px 5px 1px rgba(66, 66, 66, 0.205);
+}
+
+.menu-options{
+    justify-content: end;
+    padding-right: 15px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+}
+.menu-options a:hover{
+    color: #ffe46e;
+    scale: 105%;
+}
+
+/*Main Section*/
+.main-section{
+    padding-top: 88px;
+}

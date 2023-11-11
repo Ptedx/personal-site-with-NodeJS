@@ -39,6 +39,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html {
@@ -60,7 +62,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: Montserrat,sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -369,6 +371,7 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
   font-size: 2.5rem;
+  font-weight: 900;
 }
 
 h2, .h2 {
@@ -599,8 +602,7 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin: 0 -15px;
 }
 
 .no-gutters {
@@ -8715,6 +8717,11 @@ button.bg-dark:focus {
   .mx-xl-auto {
     margin-left: auto !important;
   }
+}
+
+.text-none{
+  text-decoration: none;
+  color: black;
 }
 
 .text-justify {

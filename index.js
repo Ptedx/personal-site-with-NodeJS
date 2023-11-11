@@ -1,6 +1,5 @@
 const bodyParser = require('body-parser')
 const express = require('express')
-const pg= require('pg-promise')()
 const app = express()
 
 app.set('views',__dirname+'/views')
