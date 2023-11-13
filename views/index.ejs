@@ -7,13 +7,14 @@
     <!--CSS-->
     <link rel="stylesheet" href="\css\bootstrap.css">
     <link rel="stylesheet" href="\css\index.css">
+    <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary menu box-shadow">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary menu ">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="\img\Vinicius-logo.png" alt="Logo" height="60px"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,26 +36,76 @@
     <main class="container">
         <section class="main-section">
             <div class="row w-100 d-flex-center align-content-center ">
-                <div class="col-md-5 col-sm-5 col-xs-12 d-flex-center flex-column text-center">
+                <div class="col-md-5 col-sm-5 col-xs-12 d-flex-center flex-column text-center observeL">
                     <h1>I'm Vinicius</h1>
                     <p>Full stack developer</p>
-                    <div class="button text-none w-50">
+                    <div class="button-light text-none w-50">
                         <div class="light"></div>
-                        <a class="text-none" href="#">Hire me</a>
+                        <a class="text-none" href="#">Contact Me</a>
                     </div>
                 </div>
                 <div class="col-md-7 col-sm-7 col-xs-12 d-flex-center">
-                    <img src="\img\vini-foto.jpg" alt="Vini photo" width="100%">
+                    <img class="observeR" src="\img\vini-foto.jpg" alt="Vini photo" width="100%">
                 </div>
             </div>
         </section>
-        <section class="h-100vh">
-
+        <section class="about-me d-flex-center">
+            <div class="about-item d-flex-center col-md-5 col-sm-12 col-xs-12 position-relative">
+                    <img src="\img\background-2.png" alt="Image about" width="100%">
+                    <div class="position-absolute" id="about-me-text">
+                        <h1 class="h-100">About me</h1>
+                        <div class="line"></div>
+                    </div>
+            </div>
+            <div class="about-item text-center col-md-5 col-sm-12 col-xs-12">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores adipisci ea repellat, sit repellendus eveniet velit sint at, quisquam sunt sapiente doloribus, voluptatibus eos ipsa aut error perferendis nobis totam?</p>
+                <div class="w-100 d-flex justify-content-around">
+                    <button class="button-main">
+                        <a href="#">Contact Me</a>
+                    </button>
+                    <button class="button-reverse">
+                        <a href="#">Download CV</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="knowledges d-flex-center flex-column text-center w-100">
+            <div class="kwow-item">
+                <div class="d-flex-center flex-column observeB">
+                    <h1>Knowledges</h1>
+                    <div class="line"></div>
+                </div>
+                <p class="observeB">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusantium non omnis. Corrupti placeat vitae corporis! Possimus ipsa unde deleniti quisquam minima doloribus aliquam, cupiditate magnam distinctio voluptates illo quos.</p>
+            </div>
+            <div class="kwow-item w-100 d-flex flex-wrap">
+                <div class="knowledges-card col-md-6 col-sm-6 col-xs-12 d-flex-center observeB ">
+                    <div class="know-item-1 d-flex-center">
+                        <h1>Opa bom dia</h1>
+                    </div>
+                </div>
+                <div class="knowledges-card col-md-6 col-sm-6 col-xs-12 d-flex-center observeB">
+                    <div class="know-item-2 d-flex-center">
+                        <h1>Opa bom dia</h1>
+                    </div>
+                </div>
+                <div class="knowledges-card col-md-6 col-sm-6 col-xs-12 d-flex-center observeB">
+                    <div class="know-item-3 d-flex-center">
+                        <h1>Opa bom dia</h1>
+                    </div>
+                </div>
+                <div class="knowledges-card col-md-6 col-sm-6 col-xs-12 d-flex-center observeB">
+                    <div class="know-item-4 d-flex-center">
+                        <h1>Opa bom dia</h1>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
     <!--JavaScript-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="\js\animations.js"></script>
     <script src="\js\bootstrap.bundle.js"></script>
+
 </body>
 </html>
