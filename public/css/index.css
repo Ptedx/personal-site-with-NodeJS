@@ -239,3 +239,27 @@
     top: 0;
     left: 0;
 }
+
+@media (min-width:768px) {
+    .know-item-1,
+    .know-item-2,
+    .know-item-3,
+    .know-item-4 {
+        width: 90%;
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: space-between !important;
+    }
+}
+
+@media (min-width:992px) {
+    .know-item-1,
+    .know-item-2,
+    .know-item-3,
+    .know-item-4 {
+        width: 80%;
+        padding-left: 30px;
+        padding-right: 40px;
+        justify-content: space-between !important;
+    }
+}
