@@ -25,6 +25,22 @@ app.get('/star-plus', (req,res)=>{
     res.render('starplus')
 })
 
+app.get('/star-plus/login',(req, res)=>{
+    res.render('starplus-login')
+})
+
+app.get('/star-plus/login-success', (req, res)=>{
+    res.render('starplus-login-success')
+})
+
+app.get('/star-plus/register', (req,res)=>{
+    res.render('starplus-register')
+})
+
+app.get('/star-plus/register-success',(req,res)=>{
+    res.render('starplus-register-success')
+})
+
 app.listen(3000,()=>{
     console.log('Ouvindo na porta 3000')
 })
