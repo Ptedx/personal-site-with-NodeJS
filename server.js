@@ -13,6 +13,18 @@ app.get('/',(req, res)=>{
     res.render('index')
 })
 
+app.get('/the-luxury', (req,res)=>{
+    res.render('the-luxury')
+})
+
+app.get('/the-luxury/response',(req,res)=>{
+    res.render('the-luxury-response')
+})
+
+app.get('/star-plus', (req,res)=>{
+    res.render('starplus')
+})
+
 app.listen(3000,()=>{
     console.log('Ouvindo na porta 3000')
 })

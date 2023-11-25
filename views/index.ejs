@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vini C.</title>
     <!--CSS-->
-    <link rel="stylesheet" href="\css\bootstrap.css">
-    <link rel="stylesheet" href="\css\index.css">
+    <link rel="stylesheet" href="\css\main\bootstrap.css">
+    <link rel="stylesheet" href="\css\main\index.css">
     <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +16,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary menu ">
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="\img\Vinicius-logo.png" alt="Logo" height="60px"></a>
+                <a class="navbar-brand" href="#"><img src="\img\main\Vinicius-logo.png" alt="Logo" height="60px"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -26,7 +26,7 @@
                         <a class="nav-link active text-none" aria-current="page" href="#knowledges">Knowledges</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-none" href="#">Projects</a>
+                        <a class="nav-link text-none" href="#projects">Projects</a>
                     </li>
                     </ul>
               </div>
@@ -40,18 +40,18 @@
                     <h1>I'm Vinicius</h1>
                     <p>Full stack developer</p>
                     <div class="button-light text-none w-50">
-                        <div class="light"></div>
+                        <div class="light-m"></div>
                         <a class="text-none" href="#">Contact Me</a>
                     </div>
                 </div>
                 <div class="col-md-7 col-sm-6 col-xs-12 d-flex-center">
-                    <img class="observeR" src="\img\vini-foto.jpg" alt="Vini photo" width="100%">
+                    <img class="observeR" src="\img\main\vini-foto.jpg" alt="Vini photo" width="100%">
                 </div>
             </div>
         </section>
         <section class="about-me d-flex-center container">
             <div class="about-item d-flex-center col-md-5 col-sm-12 col-xs-12 position-relative">
-                    <img src="\img\background-2.png" alt="Image about" width="100%">
+                    <img src="\img\main\background-2.png" alt="Image about" width="100%">
                     <div class="position-absolute" id="about-me-text">
                         <h1 class="h-100">About me</h1>
                         <div class="line"></div>
@@ -80,47 +80,69 @@
             <div class="kwow-item w-100 d-flex flex-wrap">
                 <div class="knowledges-card col-md-6 col-sm-12 col-xs-12 d-flex-center observeB">
                     <div class="know-item-1 d-flex justify-content-around align-items-center">
-                        <img src="/img/Trindade.png" alt="Front End" width="50px" height="50px">
+                        <img src="/img/main/Trindade.png" alt="Front End" width="50px" height="50px">
                         <h1>HTML CSS JS</h1>
                     </div>
                 </div>
                 <div class="knowledges-card col-md-6 col-sm-12 col-xs-12 d-flex-center observeB">
                     <div class="know-item-2 d-flex justify-content-around align-items-center">
-                        <img src="/img/Node JS.png" alt="Front End" width="50px" height="50px">
+                        <img src="/img/main/Node JS.png" alt="Front End" width="50px" height="50px">
                         <h1>Node JS</h1>
                     </div>
                 </div>
                 <div class="knowledges-card col-md-6 col-sm-12 col-xs-12 d-flex-center observeB">
                     <div class="know-item-3 d-flex justify-content-around align-items-center">
-                        <img src="/img/PostgreSQL.png" alt="Front End" width="50px" height="50px">
+                        <img src="/img/main/PostgreSQL.png" alt="Front End" width="50px" height="50px">
                         <h1>PostgreSQL</h1>
                     </div>
                 </div>
                 <div class="knowledges-card col-md-6 col-sm-12 col-xs-12 d-flex-center observeB">
                     <div class="know-item-4 d-flex justify-content-around align-items-center">
-                        <img src="/img/Python.png" alt="Front End" width="50px" height="50px">
+                        <img src="/img/main/Python.png" alt="Front End" width="50px" height="50px">
                         <h1>Python</h1>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="contact container">
-            <div class="d-flex-center flex-column">
+        <section class="projects container d-flex-center flex-column" id="projects">
+            <div class="observeB mg-20">
+                <h1>Projects</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row w-100 d-flex justify-content-between">
+                <div class="project col-lg-6 col-md-12 col-sm-12 col-xs-12 observeB position-relative d-flex-center mg-20">
+                    <div class="light"></div>
+                    <img src="\img\main\project-2.png" alt="project 1" width="100%">
+                    <a href="/the-luxury" class="a-bsolut"></a>
+                </div>
+                <div class="project col-lg-6 col-md-12 col-sm-12 col-xs-12 observeB  position-relative d-flex-center mg-20">
+                    <div class="light"></div>
+                    <img src="\img\main\project-1.png" alt="project 2" width="100%">
+                    <a href="/star-plus" class="a-bsolut"></a>
+                </div>
+            </div>
+        </section>
+        <section class="contact container observeB">
+            <div class="d-flex-center flex-column mg-20">
                 <h1>Contact</h1>
                 <div class="line"></div>
             </div>
-            <div class="d-flex justify-content-around align-items-center flex-wrap">
-                <div class="observeL">
-                    <h5>github: <a href="https://github.com/ptedx" class=" nav-link text-none">ptedx</a></h5>
+            <div class="d-flex justify-content-around align-items-center flex-wrap row">
+                <div class="observeL d-flex-center flex-column w-50 mg-20">
+                    <img src="\img\main\github.png" alt="github logo" width="50px">
+                    <h5><a href="https://github.com/ptedx" class="text-none">ptedx</a></h5>
                 </div>
-                <div class="observeR">
-                    <h5>email: contatoviniciuscostanunes@gmail.com</h5>
+                <div class="observeR d-flex-center flex-column w-50 mg-20">
+                    <img src="\img\main\instagram.png" alt="email logo" width="50px">
+                    <h5 class="text-center"><a href="https://www.instagram.com/vinic.nunes/" class="text-none">vinic.nunes</a></h5>
                 </div>
-                <div class="observeR">
-                    <h5>email: contatoviniciuscostanunes@gmail.com</h5>
+                <div class="observeB d-flex-center flex-column w-50 mg-20">
+                    <img src="\img\main\Cellphone.png" alt="cellphone logo" width="50px">
+                    <h5 class="text-center"><a href="https://wa.me/+5561982529025" class="text-none">61 9 82529025</a></h5>
                 </div>
-                <div class="observeL">
-                    <h5>email: contatoviniciuscostanunes@gmail.com</h5>
+                <div class="observeB d-flex-center flex-column w-50 mg-20">
+                    <img src="\img\main\linkedin.png" alt="linkedin logo" width="50px">
+                    <h5><a href="https://www.linkedin.com/in/vinicosta37/" class="text-none">vinicosta37</a></h5>
                 </div>
             </div>
         </section>
@@ -128,8 +150,8 @@
 
     <!--JavaScript-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="\js\animations.js"></script>
-    <script src="\js\bootstrap.bundle.js"></script>
+    <script src="\js\main\animations.js"></script>
+    <script src="\js\main\bootstrap.bundle.js"></script>
 
 </body>
 </html>
